@@ -9,8 +9,8 @@ let rem = number1 % number2;
 console.log(sum, dif, prod, div, rem)
 
 //Task 2 Print name and age
-let myName = 'Vlad';
-let myAge = 23;
+let myName = prompt();
+let myAge = prompt();
 console.log(`My name is ${myName}, I am ${myAge}`)
 
 //Task 3 Print yes if last digit is ‘odd’, otherwise print ‘no’.
